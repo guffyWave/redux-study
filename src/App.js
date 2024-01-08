@@ -11,6 +11,7 @@ import {
   anotherDoWork,
 } from './components/app-redux/productAction';
 import QoutesComponent from './components/Qoutes/QoutesComponent';
+import FruitsComponent from './components/fruits/FruitsComponent';
 
 function App() {
   let isCartVisible = useSelector((state) => state.uiManager.isCartVisible);
@@ -50,6 +51,8 @@ function App() {
       <br />
       <br /> <br /> <br />
       <QoutesComponent />
+      <br /> <br /> <br /> <br />
+      <FruitsComponent />
       <br /> <br /> <br /> <br />
     </Layout>
   );
